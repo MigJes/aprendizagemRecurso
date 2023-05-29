@@ -46,7 +46,6 @@ public class Recurso {
 	private int recursoStatus;
 	@ManyToOne
 	@JoinColumn(name = "usuario_id", nullable = false)
-	@JsonIgnore
 	private Usuario usuario;
 
 }
